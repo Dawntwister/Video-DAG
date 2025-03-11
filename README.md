@@ -38,7 +38,7 @@ cd Video-DAG
 
 ---
 
-### **3️⃣ Configure YouTube API Key (dags/.env)
+### **3️⃣ Configure YouTube API Key (dags/.env)**
 Create a new .env file inside the dags/ folder:
 touch dags/.env
 Then, open it and add:
@@ -47,19 +47,22 @@ YOUTUBE_API_KEY=your-api-key-here
 
 ---
 
-### **4️⃣ Start the Docker Containers
+### **4️⃣ Start the Docker Containers**
 docker-compose up -d --build
 
 ---
-### **5️⃣Connection in MongoDB Compass
+
+### **5️⃣Connection in MongoDB Compass**
 Add a connection instance:
 URI: mongodb://root:example@localhost:27017/
 
-### **6️⃣ Access the Web Interfaces
+---
+
+### **6️⃣ Access the Web Interfaces**
 Apache Airflow UI:	http://localhost:8080
 Go to Airflow UI to run the DAG
 ---
 
-## 📜 License
+## **📜 License**
 This project is licensed under the **Apache License 2.0**.  
 See the [LICENSE](LICENSE) file for details.
